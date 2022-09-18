@@ -1,0 +1,88 @@
+.outer-box{
+    position: absolute;
+    width: 360px;
+    height: 379px;
+    left: 76px;
+    top: 69px;
+    margin-top: 05%;
+    margin-left: 30%;
+
+    background: #0B2434;
+}
+.inner-box{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    left: 20px;
+    top: 30px;
+
+    background: #F5F5F5;
+    border-radius: 10px;
+    
+}
+.tenzie-head{
+    position: absolute;
+    left: 35.0%;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.6px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #2B283A;
+}
+.tenzie-disc{
+    position: absolute;
+    
+    bottom: 69%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.1072px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #4A4E74;
+
+}
+.die-container{
+    padding: 02px;
+    
+}
+.die{
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+    margin-top: 40%;
+    
+}
+
+.die-face{
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    height: 30px;
+    width: 80px;
+    margin-left: 38%;
+    bottom: 0%;
+
+    background: #5035FF;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 3.81277px;
+}
